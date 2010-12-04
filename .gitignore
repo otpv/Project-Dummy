@@ -1,0 +1,32 @@
+Project-Dummy-*
+.build
+# makers
+^inc
+^MANIFEST.bak$
+^Makefile.old$
+^Makefile$
+^pm_to_blib$
+^blib
+
+# reviewers and testers
+^xt
+^cover_db
+^nytprof
+^nytprof.out$
+
+# backup files
+~$
+\.old$
+\.swp$
+\.tar$
+\.tar\.gz$
+
+# vcs
+\bRCS\b
+\bCVS\b
+\.svn
+\.git
+,v$
+
+# o/s
+\.DS_Store$
